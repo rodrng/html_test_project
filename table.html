@@ -3,20 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <title>tible.html</title>
+
+<!--    <style>-->
+<!--    table, tr, td {-->
+<!--        border:solid 1px red;-->
+<!--    }-->
+
+
+<!--</style>-->
+
+
 </head>
 <body>
     <h1>오늘의 날씨</h1>
-    <table>
+    <table border="1">
     <tr>
-        <td>지역</td>
-        <td>현재기온</td>
-        <td>불쾌지수</td>
-        <td>습도(%)</td>
-        <td>풍속(m/s)</td>
+        <th>지역</th>
+        <th>현재기온</th>
+        <th colspan="2">불쾌지수/습도(%)</th>
+        <th>풍속(m/s)</th>
     </tr>
 
     <tr>
-        <td>서울</td>
+        <td rowspan="2">서울/경기</td>
         <td>25</td>
         <td>60</td>
         <td>80</td>
@@ -24,7 +33,7 @@
     </tr>
 
     <tr>
-        <td>경기도</td>
+<!--        <td>경기도</td>-->
         <td>20</td>
         <td>60</td>
         <td>80</td>
